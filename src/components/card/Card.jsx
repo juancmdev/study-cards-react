@@ -1,13 +1,13 @@
 import './styles.css'
 
-const Card = () => {
+const Card = (props) => {
   return (
     <>
       <li class="lista">
         <div class="card">
           <div class="front">
-            <h2>FRONT</h2>
-            <img src="" alt="" />
+            <h2>{props.title}</h2>
+            <img src={props.image} alt="" />
           </div>
 
           <div class="back">

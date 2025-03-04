@@ -1,1 +1,6 @@
-
+img {
+  display: block;
+  width: 100%;
+  image-orientation: initial;
+  border-radius: 5px;
+}
