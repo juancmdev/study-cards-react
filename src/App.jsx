@@ -1,4 +1,16 @@
 import Card from "./components/card/Card"
+import { data } from "./database/db";
+
+// const erre = function() {
+//   data.forEach(dato => {
+//     console.log(dato);
+//     return dato;
+//   })
+// }
+
+
+// console.log(erre());
+
 
 
 
