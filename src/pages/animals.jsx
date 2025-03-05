@@ -1,12 +1,12 @@
 import { data } from "../database/db";
 
-const animals = () => {
+const Animals = () => {
   return (
     <div>
-      <h1>{data}</h1>
+      <h1>Animals</h1>
     </div>
   )
 }
 
-export default animals
+export default Animals
 
