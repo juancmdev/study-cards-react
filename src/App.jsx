@@ -16,7 +16,7 @@ import { data } from "./database/db";
 
 function App() {
 const title = "Hello from props one more time";
-const image = 'src/assets/imgs/animals/bear.jpg';
+const image = 'imgs/animals/bear.jpg';
 
   return (
     <>
