@@ -1,3 +1,9 @@
+@import "tailwindcss";
+
+body {
+  background: red;
+}
+
 img {
   display: block;
   width: 100%;
