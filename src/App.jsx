@@ -1,11 +1,13 @@
 import { useState } from 'react'
 import './App.css'
+import './index.css'
+import LayoutPublic from './Layouts/LayoutPublic'
 
 function App() {
 
   return (
     <>
-      <h1>English Cards</h1>
+      <LayoutPublic />
     </>
   )
 }
