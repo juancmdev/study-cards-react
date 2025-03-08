@@ -1,13 +1,21 @@
 const Nav = () => {
-  const links = ['English Cards', 'Math Cards'];
+   const links = [
+        {   
+            id: 1,
+            name: 'English Cards'
+        }, 
+        {
+            id: 2,
+            name: 'Math Cards'
+        }
+   ];
 
   return (
     <>
-      <div className="navBar w-full h-16 bg-amber-200">
-        <ul>
+      <div className="navBar w-full h-16 bg-amber-200 flex justify-center">
+        <ul className="flex justify-around items-center w-3xl">
             {links.map((item) => {
-              return <h2>{item}</h2>;
-                    
+                return <li key={item.id}><h2>{item.name}</h2></li>   
             })}
         </ul>
       </div>
