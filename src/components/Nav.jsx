@@ -1,7 +1,7 @@
 const Nav = () => {
   return (
     <>
-      <div className="navBar w-full h-12 bg-amber-200"></div>
+      <div className="navBar w-full h-16 bg-amber-200"></div>
     </>
   )
 }
