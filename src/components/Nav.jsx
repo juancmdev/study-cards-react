@@ -37,6 +37,17 @@ const Nav = () => {
   const [isMainMenuOpen, setIsMainMenuOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
+  const links = [
+      {   
+         id: 1,
+         name: 'English Cards'
+      }, 
+      {
+        id: 2,
+        name: 'Math Cards'
+      }
+  ];
+
   const toggleMainMenu = () => {
     setIsMainMenuOpen(!isMainMenuOpen);
   };
