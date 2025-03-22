@@ -96,7 +96,7 @@ const Nav = () => {
               >
                 <ul className="py-2 text-sm text-gray-700 dark:text-gray-400">
                   <li>
-                    <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">English</a>
+                    <a href="src/pages/English.jsx" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">English</a>
                   </li>
                   <li>
                     <a href="#" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Math</a>
