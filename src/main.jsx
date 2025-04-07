@@ -8,3 +8,21 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
+const Button = () => {
+  return (
+    <button 
+      style={{
+        backgroundColor: 'blue',
+        color: 'white',
+        padding: '10px 20px',
+        border: 'none',
+        borderRadius: '5px',
+        cursor: 'pointer'
+      }}
+    >
+      Click me
+    </button>
+  )
+}
+
+export default Button
